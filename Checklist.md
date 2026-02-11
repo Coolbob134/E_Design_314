@@ -5,13 +5,13 @@ Must regulate own power from 9-12V supply.
 
 - [ ] 5 V Supply voltage
 - [ ] 3.3 V Supply voltage
-- [ ] LED ( [D6](./readme.md) ) indicator
+- [ ] LED ( [D6](./README.md) ) indicator
 
 ### SS2 (UART)
 - [ ] TX
 - [ ] RX
 - [ ] Configuration correct (8 data, 1 even parity bit, 1 stop bit & 57600 baud)
-- [ ] [Formatted](./readme.md#main) correctly
+- [ ] [Formatted](./README.md#main) correctly
 - [ ] Correct startup behaviour
 - [ ] Handles & responds to commands
 
@@ -19,7 +19,7 @@ Must regulate own power from 9-12V supply.
 - [ ] Measures distance
 - [ ] Measures up to 30 cm
 - [ ] Detect whether object is < 10cm
-- [ ] Flash LED ([D2](./readme.md))
+- [ ] Flash LED ([D2](./README.md))
 
 
 ### SS4 (Accelerometer)
@@ -27,18 +27,18 @@ Unsafe driving: >0.5 g
 Impact: >1.5 g
 - [ ] Records measured acceleration
 - [ ] Impact & unsafe driving detection
-- [ ] LED ([D3](./readme.md)) indicates unsafe driving(flashing) and impact(on)
+- [ ] LED ([D3](./README.md)) indicates unsafe driving(flashing) and impact(on)
 
 ### SS5 (Photodiode)
 - [ ] Records light conditions
 - [ ] Performs low light detection (< 300 lux)
-- [ ] LED ([D4](./readme.md)) flashes with low light warning
+- [ ] LED ([D4](./README.md)) flashes with low light warning
 - [ ] Correct $R_f$ (feedback resistor) value for photo-current-to-voltage converter circuit
 
 ### SS6 (Temperature sensor)
 - [ ] Records temperature
 - [ ] Determines whether temperature > 30 C
-- [ ] LED ([D5](./readme.md)) flashes when high temp detected
+- [ ] LED ([D5](./README.md)) flashes when high temp detected
 
 
 ### SS7 (Status LED's)
@@ -79,7 +79,7 @@ Impact: >1.5 g
 - [ ] [Temperature sensor](###-SS6-(Temperature-sensor)) warning cooldown
 
 ### SS12 (TIC)
-- [ ] [Implements Test Interface connection](./readme.md)
+- [ ] [Implements Test Interface connection](./README.md)
 - [ ] Push buttons implemented
 
 ### SS13 (GPS)
