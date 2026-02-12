@@ -51,6 +51,7 @@ Impact: >1.5 g
 - [ ] Pulldown resistors
 
 ### SS9 (LCD Display)
+Waveshare 1602 LCD using Hitachi HD44780U controller?
 - [ ] LCD low level driver
 - [ ] LCD high level driver
 - [ ] Contrast resistors $R8$ and $R9$ give good contrast
