@@ -3,14 +3,14 @@
 ### SS1 (Power Supply)
 Must regulate own power from 9-12V supply.
 
-- [ ] 5 V Supply voltage
-- [ ] 3.3 V Supply voltage
-- [ ] LED ( [D6](./README.md) ) indicator
+- [X] 5 V Supply voltage
+- [X] 3.3 V Supply voltage
+- [X] LED ( [D6](./README.md) ) indicator
 
 ### SS2 (UART)
-- [ ] TX
-- [ ] RX
-- [ ] Configuration correct (8 data, 1 even parity bit, 1 stop bit & 57600 baud)
+- [X] TX soldered
+- [X] RX soldered
+- [X] Configuration correct (8 data, 1 even parity bit, 1 stop bit & 57600 baud)
 - [ ] [Formatted](./README.md#main) correctly
 - [ ] Correct startup behaviour
 - [ ] Handles & responds to commands
@@ -43,9 +43,10 @@ Impact: >1.5 g
 
 ### SS7 (Status LED's)
 - [ ] Flash timing for status LED's is 500 ms ON and 500 ms OFF
-- [ ] Correct $R$-value used for series resistors (current must not exceed STM32's max)
+- [X] Correct $R$-value used for series resistors (current must not exceed STM32's max)
 
 ### SS8 (Keypad)
+- [X] Soldered keypad
 - [ ] Implemented keypad
 - [ ] Debouncing
 - [ ] Pulldown resistors
