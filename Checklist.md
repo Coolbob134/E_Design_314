@@ -52,6 +52,8 @@ Impact: >1.5 g
 
 ### SS9 (LCD Display)
 Waveshare 1602 LCD using Hitachi HD44780U controller?
+Use pins PB1, PB11-PB15(Using BSRR register)
+
 - [ ] LCD low level driver
 - [ ] LCD high level driver
 - [ ] Contrast resistors $R8$ and $R9$ give good contrast
