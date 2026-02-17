@@ -44,9 +44,11 @@ Impact: >1.5 g
 ### SS7 (Status LED's)
 - [ ] Flash timing for status LED's is 500 ms ON and 500 ms OFF
 - [X] Correct $R$-value used for series resistors (current must not exceed STM32's max)
+- [X] LED's connected to NUCLEO
 
 ### SS8 (Keypad)
-- [X] Soldered keypad
+Dont have to connect Row 0 to GPIO, just connect to 3.3V.
+- [ ] Soldered keypad
 - [ ] Implemented keypad
 - [ ] Debouncing
 - [ ] Pulldown resistors
