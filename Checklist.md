@@ -11,9 +11,9 @@ Must regulate own power from 9-12V supply.
 - [X] TX soldered
 - [X] RX soldered
 - [X] Configuration correct (8 data, 1 even parity bit, 1 stop bit & 57600 baud)
-- [ ] [Formatted](./README.md#main) correctly
-- [ ] Correct startup behaviour
-- [ ] Handles & responds to commands
+- [X] [Formatted](./README.md#main) correctly
+- [X] Correct startup behaviour
+- [X] Handles & responds to commands
 
 ### SS3 (Ultrasonic sensor)
 - [ ] Measures distance
@@ -36,13 +36,13 @@ Impact: >1.5 g
 - [ ] Correct $R_f$ (feedback resistor) value for photo-current-to-voltage converter circuit
 
 ### SS6 (Temperature sensor)
-- [ ] Records temperature
+- [X] Records temperature
 - [ ] Determines whether temperature > 30 C
 - [ ] LED ([D5](./README.md)) flashes when high temp detected
 
 
 ### SS7 (Status LED's)
-- [ ] Flash timing for status LED's is 500 ms ON and 500 ms OFF
+- [X] Flash timing for status LED's is 250 ms ON and 250 ms OFF (2 Hz)
 - [X] Correct $R$-value used for series resistors (current must not exceed STM32's max)
 - [X] LED's connected to NUCLEO
 
@@ -78,15 +78,15 @@ Use pins PB1, PB11-PB15(Using BSRR register)
 - [ ] (Optional) Saves GPS coordinates
 
 ### SS11 (RTC)
-- [ ] Keeps accurate time using RTC
+- [X] Keeps accurate time using RTC
 - [ ] [Ultrasonic sensor](###-SS3-(Ultrasonic-sensor)) warning cooldown
 - [ ] [Accelerometer](##-#SS4-(Accelerometer)) warning cooldown
 - [ ] [Photodiode](###-SS5-(Photodiode)) warning cooldown
 - [ ] [Temperature sensor](###-SS6-(Temperature-sensor)) warning cooldown
 
 ### SS12 (TIC)
-- [ ] [Implements Test Interface connection](./README.md)
-- [ ] Push buttons implemented
+- [X] [Implements Test Interface connection](./README.md)
+- [X] Push buttons implemented
 
 ### SS13 (GPS)
 
